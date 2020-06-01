@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14B75EB247D197B00E5BF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14B75EA247D197B00E5BF77 /* Foundation.framework */; };
+		B14B75F6247D197B00E5BF77 /* wxject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B14B75F5247D197B00E5BF77 /* wxject.mm */; };
+		B14B7601247D19B100E5BF77 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B14B7600247D19B100E5BF77 /* libz.1.2.8.tbd */; };
+		B14B7603247D19B900E5BF77 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B14B7602247D19B900E5BF77 /* libsubstrate.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B14B75E7247D197B00E5BF77 /* wxject.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = wxject.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14B75EA247D197B00E5BF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B14B75EF247D197B00E5BF77 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = control.txt; sourceTree = "<group>"; };
+		B14B75F0247D197B00E5BF77 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		B14B75F2247D197B00E5BF77 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PackageVersion.plist; path = ../PackageVersion.plist; sourceTree = "<group>"; };
+		B14B75F3247D197B00E5BF77 /* wxject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "wxject-Prefix.pch"; path = "../wxject-Prefix.pch"; sourceTree = "<group>"; };
+		B14B75F4247D197B00E5BF77 /* wxject.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = wxject.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B14B75F5247D197B00E5BF77 /* wxject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = wxject.mm; sourceTree = "<group>"; };
+		B14B75FA247D197B00E5BF77 /* wxject.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wxject.plist; sourceTree = "<group>"; };
+		B14B7600247D19B100E5BF77 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.1.2.8.tbd; sourceTree = DEVELOPER_DIR; };
+		B14B7602247D19B900E5BF77 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14B75E3247D197B00E5BF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14B7601247D19B100E5BF77 /* libz.1.2.8.tbd in Frameworks */,
+				B14B75EB247D197B00E5BF77 /* Foundation.framework in Frameworks */,
+				B14B7603247D19B900E5BF77 /* libsubstrate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14B75DC247D197B00E5BF77 = {
+			isa = PBXGroup;
+			children = (
+				B14B75EC247D197B00E5BF77 /* wxject */,
+				B14B75E9247D197B00E5BF77 /* Frameworks */,
+				B14B75E8247D197B00E5BF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B14B75E8247D197B00E5BF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75E7247D197B00E5BF77 /* wxject.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14B75E9247D197B00E5BF77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B14B7602247D19B900E5BF77 /* libsubstrate.dylib */,
+				B14B7600247D19B100E5BF77 /* libz.1.2.8.tbd */,
+				B14B75EA247D197B00E5BF77 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B14B75EC247D197B00E5BF77 /* wxject */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75F4247D197B00E5BF77 /* wxject.xm */,
+				B14B75F5247D197B00E5BF77 /* wxject.mm */,
+				B14B75ED247D197B00E5BF77 /* Package */,
+				B14B75F1247D197B00E5BF77 /* Supporting Files */,
+			);
+			path = wxject;
+			sourceTree = "<group>";
+		};
+		B14B75ED247D197B00E5BF77 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75EE247D197B00E5BF77 /* DEBIAN */,
+				B14B75F7247D197B00E5BF77 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		B14B75EE247D197B00E5BF77 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75EF247D197B00E5BF77 /* control.txt */,
+				B14B75F0247D197B00E5BF77 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B14B75F1247D197B00E5BF77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75F2247D197B00E5BF77 /* PackageVersion.plist */,
+				B14B75F3247D197B00E5BF77 /* wxject-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B14B75F7247D197B00E5BF77 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75F8247D197B00E5BF77 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B14B75F8247D197B00E5BF77 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75F9247D197B00E5BF77 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		B14B75F9247D197B00E5BF77 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				B14B75FA247D197B00E5BF77 /* wxject.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B14B75E4247D197B00E5BF77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B14B75E6247D197B00E5BF77 /* wxject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14B75FD247D197B00E5BF77 /* Build configuration list for PBXNativeTarget "wxject" */;
+			buildPhases = (
+				B14B75E1247D197B00E5BF77 /* ShellScript */,
+				B14B75E2247D197B00E5BF77 /* Sources */,
+				B14B75E3247D197B00E5BF77 /* Frameworks */,
+				B14B75E4247D197B00E5BF77 /* Headers */,
+				B14B75E5247D197B00E5BF77 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wxject;
+			productName = wxject;
+			productReference = B14B75E7247D197B00E5BF77 /* wxject.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14B75DD247D197B00E5BF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					B14B75E6247D197B00E5BF77 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B14B75E0247D197B00E5BF77 /* Build configuration list for PBXProject "wxject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B14B75DC247D197B00E5BF77;
+			productRefGroup = B14B75E8247D197B00E5BF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14B75E6247D197B00E5BF77 /* wxject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B14B75E1247D197B00E5BF77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		B14B75E5247D197B00E5BF77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14B75E2247D197B00E5BF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14B75F6247D197B00E5BF77 /* wxject.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B14B75FB247D197B00E5BF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		B14B75FC247D197B00E5BF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		B14B75FE247D197B00E5BF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: ZhengDa Xu (7B37679NQV)";
+				CODE_SIGN_STYLE = Manual;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wxject/wxject-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		B14B75FF247D197B00E5BF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: ZhengDa Xu (7B37679NQV)";
+				CODE_SIGN_STYLE = Manual;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wxject/wxject-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14B75E0247D197B00E5BF77 /* Build configuration list for PBXProject "wxject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14B75FB247D197B00E5BF77 /* Debug */,
+				B14B75FC247D197B00E5BF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14B75FD247D197B00E5BF77 /* Build configuration list for PBXNativeTarget "wxject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14B75FE247D197B00E5BF77 /* Debug */,
+				B14B75FF247D197B00E5BF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B14B75DD247D197B00E5BF77 /* Project object */;
+}
